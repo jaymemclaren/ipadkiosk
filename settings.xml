@@ -41,6 +41,9 @@
    			<key>kp_updateIntervalOfScreenSaverSlideShow</key>
    			<string>10</string>
 
+			 <key>localSettingsUpdatePeriod</key>
+			 <string>1</string>
+
 		</dict>
 
 
