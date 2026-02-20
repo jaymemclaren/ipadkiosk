@@ -54,6 +54,9 @@
             <!-- Show Status Bar -->
             <key>showStatusBar</key>
             <false/>
+
+			<key>customLinksEnabled</key>
+  			<false/>
 				
             <key>ApplyTo</key>
             <array>
