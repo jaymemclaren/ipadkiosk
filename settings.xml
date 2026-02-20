@@ -1,91 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-   <key>kioskSettings_v2</key>
-   <!-- Remote Settings Control configuration exported from Kiosk Pro Basic -->
-   <!-- This file uses Kiosk Pro's current XML format for Remote Settings Control (see 'kioskSettings_v2' above), compatible with devices running app version 10.4 or later. If your project includes kiosks on older versions of the app, you can learn more about using our legacy format at kioskgroup.com/legacy-xml -->
-   <!-- Documentation for each setting and its possible values is available in our Knowledge Base at support.kioskgroup.com. A spreadsheet with these values is also maintained at kioskgroup.com/kiosk-pro-remote-settings -->
- 
-      <array>
+	<dict>
+		<key>kioskSettings_v2</key>
+		<array>
 
-         <!-- Primary settings to be applied to all kiosks -->
-         <dict>
-
-			<key>homePage</key>
-   			<string>http://library.carey.wa.edu.au/</string>
-  			<key>idleTime</key>
-  			<integer>60</integer>
-
-   			<key>customLinksEnabled</key>
-  			<true/>
-
-   			<key>clLabel1</key>
-   			<string>Catalogue</string>
-
-   			<key>clLink1</key>
-   			<string>http://library.carey.wa.edu.au/</string>
-
-   			<key>clLabel2</key>
-   			<string>Literacy Pro!</string>
-
-   			<key>clLink2</key>
-   			<string>https://slz04.scholasticlearningzone.com/slz-portal/#/login3/AUS23XP</string>
-
-   			<key>sv_screenVideoEnabled</key>
-   			<true/>
-
-   			<key>sv_url2MovieFile</key>
-  			<string>screensavers</string>
-
-   			<key>kp_updateIntervalOfScreenSaverSlideShow</key>
-   			<string>10</string>
-
-		 </dict>
-
-
-         <!-- Setting Overrides for iPads in "ictReflection" group -->
-         <dict>
-			 
-            <!-- Homepage -->			
-            <key>homePage</key>
-            <string>https://www.jotform.com/app/260488361249868</string>
-
-            <!-- Hide Status & Custom Links Bar -->
-            <key>showStatusBar</key>
-            <false/>
-
-			<key>customLinksEnabled</key>
-  			<false/>
+			<!-- Primary settings to be applied to all kiosks -->
+			<dict>
 				
-            <key>ApplyTo</key>
-            <array>
-            	<string>ictReflection</string>
-            </array>
-			 
-		 </dict>
-
-		  <!-- Setting Overrides for iPads in "signInOut" group -->
-         <dict>
-			 
-            <!-- Homepage -->			
-            <key>homePage</key>
-            <string>https://example.org/</string>
-
-            <!-- Hide Status & Custom Links Bar -->
-            <key>showStatusBar</key>
-            <false/>
-
-			<key>customLinksEnabled</key>
-  			<false/>
+				<key>homePage</key>
+				<string>http://library.carey.wa.edu.au/</string>
 				
-            <key>ApplyTo</key>
-            <array>
-               <string>signInOut</string>
-            </array>
-			 
-		 </dict>
-		  
-      </array>
-</dict>
+				<key>idleTime</key>
+				<integer>60</integer>
+				
+				<key>customLinksEnabled</key>
+				<true/>
+				
+				<key>clLabel1</key>
+				<string>Catalogue</string>
+				
+				<key>clLink1</key>
+				<string>http://library.carey.wa.edu.au/</string>
+				
+				<key>clLabel2</key>
+				<string>Literacy Pro!</string>
+				
+				<key>clLink2</key>
+				<string>https://slz04.scholasticlearningzone.com/slz-portal/#/login3/AUS23XP</string>
+				
+				<key>sv_screenVideoEnabled</key>
+				<true/>
+				
+				<key>sv_url2MovieFile</key>
+				<string>screensavers</string>
+				
+				<key>kp_updateIntervalOfScreenSaverSlideShow</key>
+				<string>10</string>
+				
+			</dict>
+
+
+			<!-- Setting Overrides for iPads in "ictReflection" group -->
+			<dict>
+				
+				<key>homePage</key>
+				<string>https://www.jotform.com/app/260488361249868</string>
+				
+				<key>showStatusBar</key>
+				<false/>
+				
+				<key>customLinksEnabled</key>
+				<false/>
+				
+				<key>ApplyTo</key>
+				<array>
+					<string>ictReflection</string>
+				</array>
+				
+			</dict>
+
+			<!-- Setting Overrides for iPads in "signInOut" group -->
+			<dict>
+				
+				<key>homePage</key>
+				<string>https://example.org/</string>
+				
+				<key>showStatusBar</key>
+				<false/>
+				
+				<key>customLinksEnabled</key>
+				<false/>
+				
+				<key>ApplyTo</key>
+				<array>
+					<string>signInOut</string>
+				</array>
+				
+			</dict>
+
+			<!-- Setting Overrides for iPads in "signInOut" group -->
+			<dict>
+				
+				<key>homePage</key>
+				<string>http://library.carey.wa.edu.au/</string>
+				
+				<key>idleTime</key>
+				<integer>60</integer>
+				
+				<key>customLinksEnabled</key>
+				<true/>
+				
+				<key>clLabel1</key>
+				<string>Catalogue</string>
+				
+				<key>clLink1</key>
+				<string>http://library.carey.wa.edu.au/</string>
+				
+				<key>clLabel2</key>
+				<string>Literacy Pro!</string>
+				
+				<key>clLink2</key>
+				<string>https://slz04.scholasticlearningzone.com/slz-portal/#/login3/AUS23XP</string>
+				
+				<key>sv_screenVideoEnabled</key>
+				<true/>
+				
+				<key>sv_url2MovieFile</key>
+				<string>screensavers</string>
+				
+				<key>kp_updateIntervalOfScreenSaverSlideShow</key>
+				<string>10</string>
+				
+				<key>ApplyTo</key>
+				<array>
+					<string>library</string>
+				</array>
+				
+			</dict>
+
+		</array>
+	</dict>
 </plist>
