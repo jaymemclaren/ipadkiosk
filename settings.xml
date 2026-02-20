@@ -41,17 +41,12 @@
    			<key>kp_updateIntervalOfScreenSaverSlideShow</key>
    			<string>10</string>
 
-			 <key>localSettingsUpdatePeriod</key>
-			 <string>1</string>
-
-			 <key>kp_remoteUpdatePolicy</key>
-			 <integer>0</integer>
-
 		</dict>
 
 
          <!-- Setting Overrides for iPads in "ictReflection" group -->
          <dict>
+			 
             <!-- Homepage -->			
             <key>homePage</key>
             <string>https://www.jotform.com/app/260488361249868</string>
@@ -66,7 +61,8 @@
             <key>ApplyTo</key>
             <array>
                <string>ictReflection</string>
-            </array>	
+            </array>
+			 
          </dict>
 
 		 
