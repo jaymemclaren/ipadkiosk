@@ -45,13 +45,13 @@
 
 
 
-         <!-- Setting Overrides for Homepage and Status Bar only if Unique iPad ID = A or Unique iPad ID = B -->
+         <!-- Setting Overrides for iPads in "ictReflection" group -->
          <dict>
             <!-- Homepage -->			
             <key>homePage</key>
             <string>https://www.jotform.com/app/260488361249868</string>
 
-            <!-- Show Status Bar -->
+            <!-- Hide Status & Custom Links Bar -->
             <key>showStatusBar</key>
             <false/>
 
@@ -61,6 +61,25 @@
             <key>ApplyTo</key>
             <array>
                <string>ictReflection</string>
+            </array>	
+         </dict>
+
+		  <!-- Setting Overrides for iPads in "ictTicket" group -->
+         <dict>
+            <!-- Homepage -->			
+            <key>homePage</key>
+            <string>https://service.careywa.au/portal/services?btn=73&itil_requesttype_id=3&root_category=13&autolog=true&shownewticket=true&categoryid=13</string>
+
+            <!-- Hide Status & Custom Links Bar -->
+            <key>showStatusBar</key>
+            <false/>
+
+			<key>customLinksEnabled</key>
+  			<false/>
+				
+            <key>ApplyTo</key>
+            <array>
+               <string>ictTicket</string>
             </array>	
          </dict>
 	
