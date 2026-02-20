@@ -60,7 +60,8 @@
 				
             <key>ApplyTo</key>
             <array>
-               <string>ictReflection</string>
+            	<string>ictReflection</string>
+				<string>ict</string>
             </array>
 			 
 		 </dict>
@@ -81,7 +82,7 @@
 				
             <key>ApplyTo</key>
             <array>
-               <string>sign-in</string>
+               <string>signInOut</string>
             </array>
 			 
 		 </dict>
