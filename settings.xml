@@ -64,6 +64,27 @@
             </array>
 			 
 		 </dict>
+
+		  <!-- Setting Overrides for iPads in "sign-in" group -->
+         <dict>
+			 
+            <!-- Homepage -->			
+            <key>homePage</key>
+            <string>https://example.org/</string>
+
+            <!-- Hide Status & Custom Links Bar -->
+            <key>showStatusBar</key>
+            <false/>
+
+			<key>customLinksEnabled</key>
+  			<false/>
+				
+            <key>ApplyTo</key>
+            <array>
+               <string>sign-in</string>
+            </array>
+			 
+		 </dict>
 		  
       </array>
 </dict>
