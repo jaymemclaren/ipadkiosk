@@ -44,6 +44,9 @@
 			 <key>localSettingsUpdatePeriod</key>
 			 <string>1</string>
 
+			 <key>kp_remoteUpdatePolicy</key>
+			 <integer>0</integer>
+
 		</dict>
 
 
