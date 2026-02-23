@@ -83,7 +83,7 @@
 				
 			</dict>
 
-			<!-- Setting Overrides for iPads in "signInOut" group -->
+			<!-- Setting Overrides for iPads in "library" group -->
 			<dict>
 				
 				<key>homePage</key>
@@ -119,6 +119,25 @@
 				<key>ApplyTo</key>
 				<array>
 					<string>library</string>
+				</array>
+				
+			</dict>
+
+			<!-- Setting Overrides for iPads in "HDC-Prim-SignInKiosk" group -->
+			<dict>
+				
+				<key>homePage</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdcpr-late-early</string>
+				
+				<key>showStatusBar</key>
+				<false/>
+				
+				<key>customLinksEnabled</key>
+				<false/>
+				
+				<key>ApplyTo</key>
+				<array>
+					<string>HDC-Prim-SignInKiosk</string>
 				</array>
 				
 			</dict>
