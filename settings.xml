@@ -134,6 +134,12 @@
 				
 				<key>customLinksEnabled</key>
 				<false/>
+
+				<key>autofillingEnabled</key>
+				<true/>
+
+				<key>autofillingPasswordID1</key>
+				<string>1415</string>
 				
 				<key>ApplyTo</key>
 				<array>
