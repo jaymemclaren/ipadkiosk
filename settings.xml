@@ -140,6 +140,9 @@
 
 				<key>autofillingPasswordID1</key>
 				<string>1415</string>
+
+				<key>kp_clearAppDataOnRelaunch</key>
+				<false/>
 				
 				<key>kp_retainCookiesOn</key>
 				<string>checkin.veracross.au</string>
