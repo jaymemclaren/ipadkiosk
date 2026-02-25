@@ -138,8 +138,8 @@
 				<key>autofillingEnabled</key>
 				<true/>
 
-				<key>autofillingPasswordID1</key>
-				<string>1415</string>
+				<key>allowAutoLock</key>
+				<true/>
 
 				<key>idleTime</key>
 				<integer>60</integer>
