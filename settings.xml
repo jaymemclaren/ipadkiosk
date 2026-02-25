@@ -141,6 +141,9 @@
 				<key>autofillingPasswordID1</key>
 				<string>1415</string>
 
+				<key>idleTime</key>
+				<integer>60</integer>
+
 				<key>kp_clearAppDataOnRelaunch</key>
 				<false/>
 				
