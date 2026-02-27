@@ -45,13 +45,25 @@
 			<dict>
 				
 				<key>homePage</key>
-				<string>https://www.jotform.com/app/260488361249868</string>
+				<string>https://checkin.veracross.au/carey/kiosk/hdc-time-out</string>
 				
 				<key>showStatusBar</key>
 				<false/>
 				
 				<key>customLinksEnabled</key>
-				<false/>
+				<true/>
+
+				<key>clLabel1</key>
+				<string>Reflection Sheet</string>
+				
+				<key>clLink1</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdc-time-out</string>
+				
+				<key>clLabel2</key>
+				<string>Broken Chromebook</string>
+				
+				<key>clLink2</key>
+				<string>https://www.jotform.com/app/260488361249868</string>
 
 				<key>idleTime</key>
 				<integer>300</integer>
