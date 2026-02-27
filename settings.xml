@@ -41,7 +41,7 @@
 			</dict>
 
 
-			<!-- Setting Overrides for iPads in "HDC-SEC-ReflectionKiosk" group -->
+			<!-- Setting Overrides for iPads in "HDC-Sec-ReflectionKiosk" group -->
 			<dict>
 				
 				<key>homePage</key>
@@ -70,7 +70,7 @@
 				
 				<key>ApplyTo</key>
 				<array>
-					<string>HDC-SEC-ReflectionKiosk</string>
+					<string>HDC-Sec-ReflectionKiosk</string>
 				</array>
 				
 				
