@@ -41,7 +41,7 @@
 			</dict>
 
 
-			<!-- Setting Overrides for iPads in "ictReflection" group -->
+			<!-- Setting Overrides for iPads in "HDC-SEC-ReflectionKiosk" group -->
 			<dict>
 				
 				<key>homePage</key>
@@ -54,31 +54,58 @@
 				<false/>
 
 				<key>idleTime</key>
-				<integer>180</integer>
+				<integer>300</integer>
 				
 				<key>ApplyTo</key>
 				<array>
-					<string>ictReflection</string>
+					<string>HDC-SEC-ReflectionKiosk</string>
 				</array>
 				
 				
 			</dict>
 
-			<!-- Setting Overrides for iPads in "signInOut" group -->
+			<!-- Setting Overrides for iPads in "HDC-SEC-SignInKiosk" group -->
 			<dict>
 				
 				<key>homePage</key>
-				<string>https://example.org/</string>
+				<string>https://checkin.veracross.au/carey/kiosk/hdcsr</string>
 				
 				<key>showStatusBar</key>
 				<false/>
 				
 				<key>customLinksEnabled</key>
+				<true/>
+
+				<key>clLabel1</key>
+				<string>Check In/Out</string>
+				
+				<key>clLink1</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdcsr</string>
+				
+				<key>clLabel2</key>
+				<string>Late to Class</string>
+				
+				<key>clLink2</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdcsr-ltc</string>
+
+				<key>autofillingEnabled</key>
+				<true/>
+
+				<key>allowAutoLock</key>
+				<true/>
+
+				<key>idleTime</key>
+				<integer>60</integer>
+
+				<key>kp_clearAppDataOnRelaunch</key>
 				<false/>
+				
+				<key>kp_retainCookiesOn</key>
+				<string>checkin.veracross.au</string>
 				
 				<key>ApplyTo</key>
 				<array>
-					<string>signInOut</string>
+					<string>HDC-SEC-SignInKiosk</string>
 				</array>
 				
 			</dict>
