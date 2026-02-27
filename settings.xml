@@ -169,7 +169,7 @@
 				<true/>
 
 				<key>idleTime</key>
-				<integer>60</integer>
+				<integer>10800</integer>
 
 				<key>kp_clearAppDataOnRelaunch</key>
 				<false/>
