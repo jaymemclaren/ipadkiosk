@@ -64,7 +64,7 @@
 				
 			</dict>
 
-			<!-- Setting Overrides for iPads in "HDC-SEC-SignInKiosk" group -->
+			<!-- Setting Overrides for iPads in "HDC-Sec-SignInKiosk" group -->
 			<dict>
 				
 				<key>homePage</key>
@@ -105,7 +105,7 @@
 				
 				<key>ApplyTo</key>
 				<array>
-					<string>HDC-SEC-SignInKiosk</string>
+					<string>HDC-Sec-SignInKiosk</string>
 				</array>
 				
 			</dict>
