@@ -67,6 +67,27 @@
 
 				<key>idleTime</key>
 				<integer>300</integer>
+
+				<key>refreshOnTimeout</key>
+				<false/>
+
+				<key>refreshOnHome</key>
+				<false/>
+
+				<key>clearCacheOnTabChange</key>
+				<false/>
+
+				<key>reloadOnWake</key>
+				<false/>
+
+				<key>loadAllTabsOnStart</key>
+				<true/>
+
+				<key>keepTabsInMemory</key>
+				<true/>
+				
+				<key>reloadOnTabChange</key>
+				<false/>
 				
 				<key>ApplyTo</key>
 				<array>
