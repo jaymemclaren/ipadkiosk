@@ -54,7 +54,7 @@
 				<true/>
 
 				<key>clLabel1</key>
-				<string>Reflection Sheet</string>
+				<string>Sign-In/Out</string>
 				
 				<key>clLink1</key>
 				<string>https://checkin.veracross.au/carey/kiosk/hdc-time-out</string>
@@ -66,28 +66,19 @@
 				<string>https://form.jotform.com/260420992800857</string>
 
 				<key>idleTime</key>
-				<integer>300</integer>
+				<integer>3600</integer>
 
-				<key>refreshOnTimeout</key>
+				<key>clearCache</key>
 				<false/>
 
-				<key>refreshOnHome</key>
+				<key>kp_clearAppDataOnRelaunch</key>
 				<false/>
 
-				<key>clearCacheOnTabChange</key>
+				<key>kp_clearAppDataOnRelaunch</key>
 				<false/>
 
-				<key>reloadOnWake</key>
-				<false/>
-
-				<key>loadAllTabsOnStart</key>
+				<key>showLoadingProgress</key>
 				<true/>
-
-				<key>keepTabsInMemory</key>
-				<true/>
-				
-				<key>reloadOnTabChange</key>
-				<false/>
 				
 				<key>ApplyTo</key>
 				<array>
